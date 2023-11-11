@@ -21,7 +21,7 @@ export default function App() {
               fontWeight: 'bold'
             },
           }}>
-        <Stack.Screen name="Login" component={Login} />
+        {/* <Stack.Screen name="Login" component={Login} /> */}
         <Stack.Screen
           name="Logged"
           component={Logged}
