@@ -24,8 +24,9 @@ export const Header = styled.View`
 `
 export const Footer = styled.View`
 flex-direction: row;
-gap: 4px;
+gap: 8px;
 padding: 8px;
+justify-content: space-evenly;
 `
 
 export const Title = styled.Text`

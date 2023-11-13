@@ -7,8 +7,8 @@ const Login = ({ navigation }) => {
   const [pwToggle, setPwToggle] = React.useState(true);
 
   return (
-    <Container>
-      <Title>Login</Title>
+    <Container style={{paddingTop: "50%"}}>
+      <Title>Unlinked</Title>
       <Content>
         <TextInput mode="outlined" label="E-mail" />
         <TextInput
@@ -29,7 +29,7 @@ const Login = ({ navigation }) => {
           <Button
             style={{ backgroundColor: "#6666CC", width: "40%" }}
             textColor="#fff"
-            onPress={() => navigation.navigate("Logged")}
+            onPress={() => alert("Página de Cadastro em desenvolvimento")}
           >
             Cadastrar
           </Button>

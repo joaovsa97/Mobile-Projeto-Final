@@ -1,9 +1,9 @@
 import { ScrollView, Image, Text, View } from "react-native";
-import { IconButton } from "react-native-paper";
+import { IconButton, Button } from "react-native-paper";
 import { Content, Title, Subtitle } from "../styles/GlobalStyles";
 import Icon from "../assets/avatar.png";
 
-const Perfil = () => {
+const Perfil = ({navigation}) => {
   return (
     <Content>
       <ScrollView>
@@ -83,6 +83,14 @@ const Perfil = () => {
             }
           />
         </View>
+        <Button
+            style={{ backgroundColor: "#6666CC" }}
+            labelStyle={{fontSize: 18,fontWeight: "bold"}}
+            textColor="#fff"
+            onPress={() => navigation.navigate("Login")}
+          >
+            Voltar
+          </Button>
       </ScrollView>
     </Content>
   );

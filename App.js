@@ -1,7 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { IconButton, Text } from "react-native-paper";
-import { Entypo } from "@expo/vector-icons";
 import "react-native-gesture-handler";
 
 import Login from "./pages/Login";
@@ -21,7 +20,7 @@ export default function App() {
               fontWeight: 'bold'
             },
           }}>
-        {/* <Stack.Screen name="Login" component={Login} /> */}
+        <Stack.Screen name="Login" component={Login} />
         <Stack.Screen
           name="Logged"
           component={Logged}

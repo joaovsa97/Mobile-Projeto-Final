@@ -1,4 +1,4 @@
-import { Avatar, Card, Text } from "react-native-paper";
+import { Avatar, Card, Text, Button } from "react-native-paper";
 import { ScrollView } from "react-native";
 import { Content, Header, Footer } from "../styles/GlobalStyles";
 
@@ -21,16 +21,24 @@ const Home = () => {
           </Card.Content>
           <Footer>
             <InteractiveButton label="curtir" />
-            <InteractiveButton
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="comentar"
               onPress={() => alert("Página de visualização em desenvolvimento")}
-            />
-            <InteractiveButton
+            >
+              Comentar
+            </Button>
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="compartilhar"
               onPress={() =>
                 alert("Função de compartilhamento em desenvolvimento")
               }
-            />
+            >
+              compartilhar
+            </Button>
           </Footer>
         </Card>
         <Card mode="outlined">
@@ -49,16 +57,24 @@ const Home = () => {
           </Card.Content>
           <Footer>
             <InteractiveButton label="curtir" />
-            <InteractiveButton
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="comentar"
               onPress={() => alert("Página de visualização em desenvolvimento")}
-            />
-            <InteractiveButton
+            >
+              Comentar
+            </Button>
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="compartilhar"
               onPress={() =>
                 alert("Função de compartilhamento em desenvolvimento")
               }
-            />
+            >
+              compartilhar
+            </Button>
           </Footer>
         </Card>
         <Card mode="outlined">
@@ -77,16 +93,24 @@ const Home = () => {
           </Card.Content>
           <Footer>
             <InteractiveButton label="curtir" />
-            <InteractiveButton
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="comentar"
               onPress={() => alert("Página de visualização em desenvolvimento")}
-            />
-            <InteractiveButton
+            >
+              Comentar
+            </Button>
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="compartilhar"
               onPress={() =>
                 alert("Função de compartilhamento em desenvolvimento")
               }
-            />
+            >
+              compartilhar
+            </Button>
           </Footer>
         </Card>
         <Card mode="outlined">
@@ -103,16 +127,24 @@ const Home = () => {
           </Card.Content>
           <Footer>
             <InteractiveButton label="curtir" />
-            <InteractiveButton
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="comentar"
               onPress={() => alert("Página de visualização em desenvolvimento")}
-            />
-            <InteractiveButton
+            >
+              Comentar
+            </Button>
+            <Button
+              style={{ backgroundColor: "#6666CC" }}
+              textColor="#fff"
               label="compartilhar"
               onPress={() =>
                 alert("Função de compartilhamento em desenvolvimento")
               }
-            />
+            >
+              compartilhar
+            </Button>
           </Footer>
         </Card>
       </Content>
